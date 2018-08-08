@@ -1,6 +1,6 @@
 package interfaces;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -12,7 +12,7 @@ public class TestInterfaces {
 		System.out.println(bs);
 		assertEquals("tset a si sihT", bs.toString());
 	}
-	
+
 	@Test
 	public void testMixedCapsString() {
 		SpecialString mcs = new MixedCapsString("This is also a test");
